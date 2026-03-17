@@ -10,7 +10,7 @@
     <id>https://DidierAlonso.github.io/DQPortfolio</id>
 
     <entry>
-        <title>🦇Conectando las islas verdes de Bogotá: ¿Existen corredores de vuelo urbanos para murciélagos?</title>
+        <title>🦇🌳 Conectando las islas verdes de Bogotá: ¿Existen corredores de vuelo urbanos para murciélagos?</title>
         <author>
             <name>Didier Alonso Quimbay Galindo</name>
         </author>
@@ -173,37 +173,201 @@ ggplot() +
         </content>
     </entry>
     <entry>
-        <title>OLD 🗺 Cartografía para los viajes de Thomas R. Defler</title>
+        <title>🖨️ Topografía Táctil: Mapeando las aguas de Bogotá</title>
         <author>
             <name>Didier Alonso Quimbay Galindo</name>
         </author>
-        <link href="https://DidierAlonso.github.io/DQPortfolio/portfolio/post01-mapas-profe-delfer/"/>
-        <id>https://DidierAlonso.github.io/DQPortfolio/portfolio/post01-mapas-profe-delfer/</id>
-        <media:content url="https://DidierAlonso.github.io/DQPortfolio/media/posts/1/Map01_Trip_DQ13.png" medium="image" />
+        <link href="https://DidierAlonso.github.io/DQPortfolio/portfolio/topografia-tactil-mapeando-las-aguas-de-bogota/"/>
+        <id>https://DidierAlonso.github.io/DQPortfolio/portfolio/topografia-tactil-mapeando-las-aguas-de-bogota/</id>
+        <media:content url="https://DidierAlonso.github.io/DQPortfolio/media/posts/12/HillshadeFocus_-2.png" medium="image" />
             <category term="Portfolio"/>
             <category term="2025"/>
 
-        <updated>2026-03-16T23:51:01-05:00</updated>
+        <updated>2026-03-17T12:09:03-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                        <img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/1/Map01_Trip_DQ13.png" alt="" />
-                    Trazando 30 años de trabajo en los llanos orientales y el Vichada colombiano Cargo: Diseñador cartográfico Herramientas: QGIS Entregable: Serie de tres (3) mapas para publicación y maquetación editorial. Crear una serie de mapas divulgativos que retraten los viajes y expediciones hechos por el Profesor&hellip;
+                        <img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/12/HillshadeFocus_-2.png" alt="" />
+                    Un mapa educativo, interactivo a gran escala de los ríos y humedales de Bogotá para el Museo de Historia Natural (UNAL) Rol:&nbsp;Especialista SIG, Cartógrafo didácticoHerramientas: Qgis, Datos Abiertos Bogotá, Impresión a gran formatoÉnfasis: Material didáctico, pedagogía, mapas hidrológicos 🎯 El desafío Entender los sistemas hídricos&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <p><img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/1/Map01_Trip_DQ13.png" class="type:primaryImage" alt="" /></p>
-                <h3 id="trazando-30-años-de-trabajo-en-los-llanos-orientales-y-el-vichada-colombiano">Trazando 30 años de trabajo en los llanos orientales y el Vichada colombiano</h3>
-<ul>
-<li><p><strong>Cargo:</strong> Diseñador cartográfico</p></li>
-<li><p><strong>Herramientas:</strong> <a href="https://qgis.org/download/">QGIS</a></p></li>
-<li><p><strong>Entregable:</strong> Serie de tres (3) mapas para publicación y maquetación editorial.</p></li>
-</ul>
-<hr>
-<h3 id="🎯-la-tarea">🎯 La tarea:</h3>
-<p>Crear una serie de mapas divulgativos que retraten los viajes y expediciones hechos por el Profesor Thomas R. Defler en la región del Vichada colombiano, a travez de rios, sabanas indunables y selvas.</p><h3 id="🖉-el-proceso">🖉 El proceso</h3>
-<p>Sinteticé las rutas descrita spor el Profesor Defler a travéz de la región utilizando distintas fuentes cartográficas de referencia (IGAC, DANE, MapBiomas). Recreé las rutas terrestres y rivereñas recorridas en más de 20 años según la dirección del Profesor. Usé simbologías sencillas y límpias para facilitar el acceso a la información para un público no técnico. </p><h3 id="🗺-el-impacto">🗺 El impacto</h3>
-<p>Mís mapas logran visualizar particularidades de los viajes de invetigación del Profesor Defler, y permiten ubicar el contexto espacial y natural del gradiente sabana orinocence y selva amazónica que exploró el profesor. Los mapas son un complemento visual del texto y narrativa principal del libro.</p>
+                    <p><img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/12/HillshadeFocus_-2.png" class="type:primaryImage" alt="" /></p>
+                
+    <h3 id="un-mapa-educativo-interactivo-a-gran-escala-de-los-rios-y-humedales-de-bogota-para-el-museo-de-historia-natural-unal">
+      Un mapa educativo, interactivo a gran escala de los ríos y humedales de Bogotá para el Museo de Historia Natural (UNAL)
+    </h3>
+<hr class="separator separator--dots" />
+
+  <ul>
+    <li><b>Rol</b>:&nbsp;Especialista SIG, Cartógrafo didáctico</li><li><b>Herramientas</b>: Qgis, Datos Abiertos Bogotá, Impresión a gran formato</li><li><b>Énfasis</b>: Material didáctico, pedagogía, mapas hidrológicos</li>
+  </ul>
+<hr class="separator separator--dots" />
+
+    <h2 id="el-desafio">
+      🎯 El desafío
+    </h2>
+
+  <p>
+    Entender los sistemas hídricos de la ciudad no es una tarea de memorizar nombres de ríos y humedales, sino una tarea que requiere involucrase de manera activa y directa. El museo de Historia Natural (MHN) en su exposición temporal "QQQ" en el mes de los humedales necesitaba un material didáctico que no solo fuera visualmente agradable, sino que también fuera físicamente interactivo. Necesitaban un&nbsp;espacio para que el público pudiera intuitivamente&nbsp;navegar, reconocer su territorio, dejar notas y compartir sus propias historias y experiencias en un contexto geográfico.
+  </p>
+
+    <h3 id="mi-aproximacion-tecnica-y-pedagogica">
+      🖉 Mi aproximación técnica y pedagógica
+    </h3>
+
+  <p>
+    Para crear un mapa que invitara la gente a tocarlo e interactuar, fue necesario incorporar una estrategia distinta a mapas "planos" y algunos aspectos de la cartografía tradicional y académica.
+  </p>
+
+  <ul>
+    <li><b>Diseño para la intuición</b>: Utilicé Qgis para generar un mapa de alto de talle con efectos de sombreado 3D (Hillshade). Al exagerar el relieve y sombras la topografía de Bogotá y sus alrrededores se vuelve mucho más reconocibles. Esto permite que tanto niños, jovenes y adutos, puedan ubicarse en su paisaje.</li><li><b>Procesamiento de Datos Open Source</b>:&nbsp;Utilizando set de datos libres ofertados por distintas entidades (Datos Abiertos Bogotá), generé una representación&nbsp; didáctica y entendible de los humedales, ríos, vías principales y sitios de interés de la ciudad. Todo manteniendo el rigor y precisión en un mapa de gran escala.</li><li><b>Canvas Didáctico:</b>&nbsp;Diseñé&nbsp;&nbsp;la simbología y maquetación específicamente para que el mapa fuera&nbsp;impreso en gran formato industrial (2.0 m × 1.45 m), y resistente al tacto y transporte. Colores neutros y espacio negativo se implementó al interior de la ciudad para permitir que escritura con marcador o notas adhesivas pudieran verse fácilmente. Todo esto permite que el mapa se convierta en un espacio colaborativo y de diálogo.<br></li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://DidierAlonso.github.io/DQPortfolio/media/posts/12/HillshadeFocus_.png" height="2072" width="2477" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/HillshadeFocus_-xs.png 640w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/HillshadeFocus_-sm.png 768w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/HillshadeFocus_-md.png 1024w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/HillshadeFocus_-lg.png 1366w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/HillshadeFocus_-xl.png 1600w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/HillshadeFocus_-2xl.png 1920w">
+      <figcaption>Detalle y acercamiento a la estrategia de manejo de simbología del relieve, ríos, humedales y carreteras</figcaption>
+    </figure>
+
+    <h3 id="el-resultado">
+      🗺 El Resultado
+    </h3>
+
+  <p>
+    Un mapa en gran formato, táctil instalado como un póster integrándose en la exposición temporal "<i>Chucuas QQQ</i>" del MHN de la Universidad Nacional de Colombia. El mapa fue efectivo en unir el rigor científico y técnico con la didáctica y espacios comunitarios, conviertiendose así en un insumo para la divulgación científica
+  </p>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="https://DidierAlonso.github.io/DQPortfolio/media/posts/12/FullSize_.png" height="11417" width="15748" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/FullSize_-xs.png 640w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/FullSize_-sm.png 768w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/FullSize_-md.png 1024w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/FullSize_-lg.png 1366w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/FullSize_-xl.png 1600w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/12/responsive/FullSize_-2xl.png 1920w">
+      <figcaption>Diseño de mapa final para impresión (2000 × 1450 mm)</figcaption>
+    </figure>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="" height="" width="" alt=""  data-is-external-image="true">
+      
+    </figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>📲 Aplicación móvil en Qfield: Arboretum UNAL interactivo</title>
+        <author>
+            <name>Didier Alonso Quimbay Galindo</name>
+        </author>
+        <link href="https://DidierAlonso.github.io/DQPortfolio/portfolio/propuesta-app-arboretum-unal-interactivo/"/>
+        <id>https://DidierAlonso.github.io/DQPortfolio/portfolio/propuesta-app-arboretum-unal-interactivo/</id>
+        <media:content url="https://DidierAlonso.github.io/DQPortfolio/media/posts/11/Portfolio_Screenshot01.png" medium="image" />
+            <category term="Portfolio"/>
+            <category term="2025"/>
+
+        <updated>2026-03-17T00:33:14-05:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/11/Portfolio_Screenshot01.png" alt="" />
+                    Generando un prototipo de aplicación para móvil (Qfield) para navegar interactivamente en el arboretum de la Universidad Nacional de Colombia
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/11/Portfolio_Screenshot01.png" class="type:primaryImage" alt="" /></p>
+                
+    <h3 id="generando-un-prototipo-de-aplicacion-para-movil-qfield-para-navegar-interactivamente-en-el-arboretum-de-la-universidad-nacional-de-colombia">
+      Generando un prototipo de aplicación para móvil (Qfield) para navegar interactivamente en el arboretum de la Universidad Nacional de Colombia
+    </h3>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>🖆 Mapas académicos para varios miembros del Laboratorio de Ecología de Mamíferos Neotropicales (EFNN)</title>
+        <author>
+            <name>Didier Alonso Quimbay Galindo</name>
+        </author>
+        <link href="https://DidierAlonso.github.io/DQPortfolio/portfolio/mapas-para-publicaciones-academicas-una-ayuda-a-miembros-del-laboratorio-de-ecologia-de-mamiferos-neotropicales-efnn/"/>
+        <id>https://DidierAlonso.github.io/DQPortfolio/portfolio/mapas-para-publicaciones-academicas-una-ayuda-a-miembros-del-laboratorio-de-ecologia-de-mamiferos-neotropicales-efnn/</id>
+        <media:content url="https://DidierAlonso.github.io/DQPortfolio/media/posts/10/Print4_UbicationMap.png" medium="image" />
+            <category term="Portfolio"/>
+            <category term="2024"/>
+
+        <updated>2026-03-17T00:37:32-05:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/10/Print4_UbicationMap.png" alt="" />
+                    Generando mapas para distintos trabajos académicos de pregrado, doctorado y publicaciones académicas Genere mapas Mapas para documento de Doctorado: Nathalia QQQQ Junto con NAtalhia le puedo clabroarpara genear los mapas para su trabajo de doctorado titulado "" COnsultao aquí.Puntualmten estos maps se revisaron varias veces,&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/10/Print4_UbicationMap.png" class="type:primaryImage" alt="" /></p>
+                
+    <h3 id="generando-mapas-para-distintos-trabajos-academicos-de-pregrado-doctorado-y-publicaciones-academicas">
+      Generando mapas para distintos trabajos académicos de pregrado, doctorado y publicaciones académicas
+    </h3>
+
+  <p>
+    Genere mapas
+  </p>
+
+    <h3 id="mapas-para-documento-de-doctorado-nathalia-qqqq">
+      Mapas para documento de Doctorado: Nathalia QQQQ
+    </h3>
+
+  <ul>
+    <li>Junto con NAtalhia le puedo clabroarpara genear los mapas para su trabajo de doctorado titulado "" COnsultao aquí.</li><li>Puntualmten estos maps se revisaron varias veces, la idea es poder lograr el imacto estético y acaṕdemicso reuqieriodo por Natahlia para tan importnte ocasión.</li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="" height="" width="" alt=""  data-is-external-image="true">
+      
+    </figure>
+
+    <h3 id="mapas-para-articulo-maria-alejandra-perdomo-gaitan">
+      Mapas para artículo: Maria Alejandra Perdomo Gaitan
+    </h3>
+
+  <ul>
+    <li>Mapitas para María y su trabajho "". Puedes cosultarlo aquí: LINK</li><li>Con María armamos una serie de mapas de ubicación sobre sus localidades de muestras de guano de cuevas y cavernas en Colombia.</li>
+  </ul>
+
+    <figure class="post__image post__image--center">
+      <img loading="lazy" src="" height="" width="" alt=""  data-is-external-image="true">
+      
+    </figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>🦇🕮 Registros históricos de murciélagos de Bogotá: ¿Será que existen rutas de vuelo entre estos registros?</title>
+        <author>
+            <name>Didier Alonso Quimbay Galindo</name>
+        </author>
+        <link href="https://DidierAlonso.github.io/DQPortfolio/portfolio/registros-historicos-de-murcielagos-de-bogota-sera-que-existen-rutas-de-vuelo-entre-estos-registros/"/>
+        <id>https://DidierAlonso.github.io/DQPortfolio/portfolio/registros-historicos-de-murcielagos-de-bogota-sera-que-existen-rutas-de-vuelo-entre-estos-registros/</id>
+        <media:content url="https://DidierAlonso.github.io/DQPortfolio/media/posts/9/Figure2_03.png" medium="image" />
+            <category term="Portfolio"/>
+            <category term="2023"/>
+
+        <updated>2026-03-17T00:09:30-05:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/9/Figure2_03.png" alt="" />
+                    Reconstruyendo los posibles rutas de vuelo de los murciélagos urbanos a partir de los registros históricos georeferenciados
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/9/Figure2_03.png" class="type:primaryImage" alt="" /></p>
+                
+    <h3 id="reconstruyendo-los-posibles-rutas-de-vuelo-de-los-murcielagos-urbanos-a-partir-de-los-registros-historicos-georeferenciados">
+      Reconstruyendo los posibles rutas de vuelo de los murciélagos urbanos a partir de los registros históricos georeferenciados
+    </h3>
+
+  <p>
+    
+  </p>
             ]]>
         </content>
     </entry>
