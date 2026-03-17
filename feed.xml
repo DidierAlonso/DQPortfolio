@@ -3,37 +3,96 @@
     <title>Didier Portfolio</title>
     <link href="https://DidierAlonso.github.io/DQPortfolio/feed.xml" rel="self" />
     <link href="https://DidierAlonso.github.io/DQPortfolio" />
-    <updated>2026-03-07T16:59:24-05:00</updated>
+    <updated>2026-03-16T23:40:31-05:00</updated>
     <author>
         <name>Didier Alonso Quimbay Galindo</name>
     </author>
     <id>https://DidierAlonso.github.io/DQPortfolio</id>
 
     <entry>
-        <title>¿Los parques y zonas verdes de Bogotá DC tienen sus hábitats conectados?</title>
+        <title>🦇Conectando las islas verdes de Bogotá: ¿Existen corredores de vuelo urbanos para murciélagos?</title>
         <author>
             <name>Didier Alonso Quimbay Galindo</name>
         </author>
-        <link href="https://DidierAlonso.github.io/DQPortfolio/portfolio/post02-anlasyis-of-connectivirt/"/>
-        <id>https://DidierAlonso.github.io/DQPortfolio/portfolio/post02-anlasyis-of-connectivirt/</id>
+        <link href="https://DidierAlonso.github.io/DQPortfolio/portfolio/conectando-las-islas-verdes-de-bogota-existen-corredores-de-vuelo-urbanos-para-murcielagos/"/>
+        <id>https://DidierAlonso.github.io/DQPortfolio/portfolio/conectando-las-islas-verdes-de-bogota-existen-corredores-de-vuelo-urbanos-para-murcielagos/</id>
+        <media:content url="https://DidierAlonso.github.io/DQPortfolio/media/posts/7/Figure05_ICC_BOG-2.png" medium="image" />
             <category term="Portfolio"/>
             <category term="2025"/>
 
-        <updated>2026-03-07T16:22:37-05:00</updated>
+        <updated>2026-03-16T23:40:31-05:00</updated>
             <summary type="html">
                 <![CDATA[
-                    Explorando la conectividad integral del paisaje (dPC) para los murcielagos de la ciudad Rol: Investigador, Desarrolador en R, Profesional SIG Herramientas: QGIS, R, R Studio, Makurhini (R) Entregable: Paper ‘Fogueo técnino’ con resultados preliminares sobre la pregunta
+                        <img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/7/Figure05_ICC_BOG-2.png" alt="" />
+                    Modelando la conectividad ecológica dentro de la ciudad de Bogotá para el paso seguro de fauna en sus parques Rol:&nbsp;Biólogo y Analista espacial (SIG)Herrameintas: R,&nbsp;Makurhini, QgisEnfoque: Ecología urbana, Conservación, Planeación urbana 🎯 El desafío Bogotá es una ciudad que se ha expandido bastante en múltiples&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h2 id="explorando-la-conectividad-integral-del-paisaje-dpc-para-los-murcielagos-de-la-ciudad">Explorando la conectividad integral del paisaje (dPC) para los murcielagos de la ciudad</h2>
-<ul>
-<li><p><strong>Rol:</strong> Investigador, Desarrolador en R, Profesional SIG</p></li>
-<li><p><strong>Herramientas:</strong> QGIS, R, R Studio, Makurhini (R)</p></li>
-<li><p><strong>Entregable:</strong> Paper ‘Fogueo técnino’ con resultados preliminares sobre la pregunta</p></li>
-</ul>
+                    <p><img src="https://DidierAlonso.github.io/DQPortfolio/media/posts/7/Figure05_ICC_BOG-2.png" class="type:primaryImage" alt="" /></p>
+                
+    <h2 id="modelando-la-conectividad-ecologica-dentro-de-la-ciudad-de-bogota-para-el-paso-seguro-de-fauna-en-sus-parques">
+      Modelando la conectividad ecológica dentro de la ciudad de Bogotá para el paso seguro de fauna en sus parques
+    </h2>
+<hr class="separator separator--dots" />
 
+  <ul>
+    <li><b>Rol:</b>&nbsp;Biólogo y Analista espacial (SIG)</li><li><b>Herrameintas</b>: R,&nbsp;<code>Makurhini</code>, Qgis</li><li><b>Enfoque</b>: Ecología urbana, Conservación, Planeación urbana</li>
+  </ul>
+<hr class="separator separator--dots" />
+
+    <h3 id="el-desafio">
+      🎯 El desafío
+    </h3>
+
+  <p>
+    Bogotá es una ciudad que se ha expandido bastante en múltiples direcciones desde su fundación. Ha absorbido y modificado distintos municipios y zonas, y progresivamente modificando fuertemente la estructura ecológica natural de "La Sabana de Bogotá". Los parques distritales, zonas verdes urbanas y humedales son los pocos sectores naturales que quedan dentro de la matriz de la ciudad. Estos sitios a veces quedan aisladas volviéndose efectivamente "<i>islas verdes</i>" en un mar de concreto.
+  </p>
+
+  <p>
+    Para los murciélagos urbanos - un actor natural polinizador, y controlador de insectos, que a veces la misma ciudad cree que no existe en su interior - enfrenta un gran desafío al tener que navegar dentro de este complejo ambiente. La pregunta no es sí existen bosques o zonas arboladas que los puedan albergar, sino si estas <i>islas verdes</i> estarán lo suficientemente cerca para ser consideradas como un <strong>paso</strong> o <strong>refugio</strong> considerando los rangos de vuelo que tienen&nbsp;los murciélagos urbanos.
+  </p>
+
+    <h3 id="mi-aproximacion">
+      🔍 Mi aproximación
+    </h3>
+
+  <p>
+    Para poder comprender y explorar esta pregunta necesitamos ver la ciudad desde la óptica de murciélagos.
+  </p>
+
+  <ul>
+    <li><b>¿Que tanta distancia&nbsp;puede&nbsp;volar un murciélago?&nbsp;</b>(<i>Definiendo Parámetros</i>)<i>. </i>Mirando literatura se puede inferir algunos rangos de distancia de vuelos que tienen algunas especies. Con esto definí la distancia máxima que podría volar un murciélago.</li><li><b>¿Que herramienta permite modelar la conectividad?</b> <i>(Modelado espacial)</i>. Usé el paquete de R <code>Makurhini</code> para poder realizar un análisis de conectividad mediante el <u>índice compuesto de conectividad</u> (ICC). De esta manera es posible estimar la conectividad teórica entre las zonas naturales y semi-naturales de Bogotá. Y así intentar identificar los parches tipo "<i>stepping stones</i>" que los murciélagos podrían utilizar para navegar dentro de la ciudad.</li><li><b>¿Cómo se puede entender este análisis?</b> <i>(Interpretación y traducción de los datos)</i> Procesé el resultado del análisis generando un mapa que permite identificar cuales son los parches con mayor relevancia y conectividad estructural. Esto es un insumo para poder interpretar la ciudad desde los ojos de los murciélagos.</li>
+  </ul>
+
+    <h3 id="el-resultado">
+      💡 El resultado
+    </h3>
+
+  <p>
+    Gracias a esta aproximación puedo generar un mapa basado en datos que nos permite reinterpretar nuestra ciudad sobre relaciones que quizás pueden pasar desapercibidas para muchos. Es esencial entender como nosotros somos actores y partícipes en el gran sistema ecológico de la ciudad.
+  </p>
+
+    <figure id="ICC_Plot" class="post__image post__image--center">
+      <img loading="lazy" src="https://DidierAlonso.github.io/DQPortfolio/media/posts/7/Figure05_ICC_BOG.png" height="712" width="811" alt=""  sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://DidierAlonso.github.io/DQPortfolio/media/posts/7/responsive/Figure05_ICC_BOG-xs.png 640w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/7/responsive/Figure05_ICC_BOG-sm.png 768w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/7/responsive/Figure05_ICC_BOG-md.png 1024w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/7/responsive/Figure05_ICC_BOG-lg.png 1366w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/7/responsive/Figure05_ICC_BOG-xl.png 1600w ,https://DidierAlonso.github.io/DQPortfolio/media/posts/7/responsive/Figure05_ICC_BOG-2xl.png 1920w">
+      <figcaption>Índice de Conectividad Compuesto (ICC) de las áreas naturales y seminaturales de la ciudad de Bogotá D.C.</figcaption>
+    </figure>
+
+    <h3 id="que-podemos-ver">
+      ✓ ¿Qué podemos ver?
+    </h3>
+
+  <ul>
+    <li>La ciudad tiene una conectividad muy fragmentada para los murciélagos. Son los parques urbanos y reservas naturales del Norte de la ciudad las que exhiben mayor conectividad.&nbsp;</li><li>Los cerros orientales son el eje articulador para que este grupo pueda atravesar la ciudad en sentido N a S.</li>
+  </ul>
+
+    <h3 id="necesitas-mas-detalles">
+      🕮 ¿Necesitas más detalles?
+    </h3>
+
+  <p>
+    Puedes consultar un <a href="https://redbioma.org/projects/2025-08-connectivity/ciudad-bogota-colombia.html" target="_blank" rel="sponsored">documento técnico</a> (No artículo científico revisado por pares, aún.) para revisar más detalles.
+  </p>
             ]]>
         </content>
     </entry>
