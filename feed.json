@@ -1,0 +1,47 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Didier Portfolio",
+    "description": "",
+    "home_page_url": "https://DidierAlonso.github.io/DQPortfolio",
+    "feed_url": "https://DidierAlonso.github.io/DQPortfolio/feed.json",
+    "user_comment": "",
+    "icon": "https://DidierAlonso.github.io/DQPortfolio/media/website/LogoCircle_V2-2.png",
+    "author": {
+        "name": "Didier Alonso Quimbay Galindo"
+    },
+    "items": [
+        {
+            "id": "https://DidierAlonso.github.io/DQPortfolio/portfolio/post02-anlasyis-of-connectivirt/",
+            "url": "https://DidierAlonso.github.io/DQPortfolio/portfolio/post02-anlasyis-of-connectivirt/",
+            "title": "¿Los parques y zonas verdes de Bogotá DC tienen sus hábitats conectados?",
+            "summary": "Explorando la conectividad integral del paisaje (dPC) para los murcielagos de la ciudad Rol: Investigador, Desarrolador en R, Profesional SIG Herramientas: QGIS, R, R Studio, Makurhini (R) Entregable: Paper ‘Fogueo técnino’ con resultados preliminares sobre la pregunta",
+            "content_html": "<h2 id=\"explorando-la-conectividad-integral-del-paisaje-dpc-para-los-murcielagos-de-la-ciudad\">Explorando la conectividad integral del paisaje (dPC) para los murcielagos de la ciudad</h2>\n<ul>\n<li><p><strong>Rol:</strong> Investigador, Desarrolador en R, Profesional SIG</p></li>\n<li><p><strong>Herramientas:</strong> QGIS, R, R Studio, Makurhini (R)</p></li>\n<li><p><strong>Entregable:</strong> Paper ‘Fogueo técnino’ con resultados preliminares sobre la pregunta</p></li>\n</ul>\n",
+            "author": {
+                "name": "Didier Alonso Quimbay Galindo"
+            },
+            "tags": [
+                   "Portfolio",
+                   "2025"
+            ],
+            "date_published": "2026-03-06T21:05:41-05:00",
+            "date_modified": "2026-03-07T16:22:37-05:00"
+        },
+        {
+            "id": "https://DidierAlonso.github.io/DQPortfolio/portfolio/post01-mapas-profe-delfer/",
+            "url": "https://DidierAlonso.github.io/DQPortfolio/portfolio/post01-mapas-profe-delfer/",
+            "title": "Cartografía para los viajes de Thomas R. Defler",
+            "summary": "Trazando 30 años de trabajo en los llanos orientales y el Vichada colombiano Cargo: Diseñador cartográfico Herramientas: QGIS Entregable: Serie de tres (3) mapas para publicación y maquetación editorial. Crear una serie de mapas divulgativos que retraten los viajes y expediciones hechos por el Profesor&hellip;",
+            "content_html": "<h2 id=\"trazando-30-años-de-trabajo-en-los-llanos-orientales-y-el-vichada-colombiano\">Trazando 30 años de trabajo en los llanos orientales y el Vichada colombiano</h2>\n<ul>\n<li><p><strong>Cargo:</strong> Diseñador cartográfico</p></li>\n<li><p><strong>Herramientas:</strong> <a href=\"https://qgis.org/download/\">QGIS</a></p></li>\n<li><p><strong>Entregable:</strong> Serie de tres (3) mapas para publicación y maquetación editorial.</p></li>\n</ul>\n<h3 id=\"🎯-la-tarea\">🎯 La tarea:</h3>\n<p>Crear una serie de mapas divulgativos que retraten los viajes y expediciones hechos por el Profesor Thomas R. Defler en la región del Vichada colombiano, a travez de rios, sabanas indunables y selvas.</p><h3 id=\"🖉-el-proceso\">🖉 El proceso</h3>\n<p>Sinteticé las rutas descrita spor el Profesor Defler a travéz de la región utilizando distintas fuentes cartográficas de referencia (IGAC, DANE, MapBiomas). Recreé las rutas terrestres y rivereñas recorridas en más de 20 años según la dirección del Profesor. Usé simbologías sencillas y límpias para facilitar el acceso a la información para un público no técnico. </p><h3 id=\"🗺-el-impacto\">🗺 El impacto</h3>\n<p>Mís mapas logran visualizar particularidades de los viajes de invetigación del Profesor Defler, y permiten ubicar el contexto espacial y natural del gradiente sabana orinocence y selva amazónica que exploró el profesor. Los mapas son un complemento visual del texto y narrativa principal del libro.</p>",
+            "image": "https://DidierAlonso.github.io/DQPortfolio/media/posts/1/Map01_Trip_DQ13.png",
+            "author": {
+                "name": "Didier Alonso Quimbay Galindo"
+            },
+            "tags": [
+                   "Portfolio",
+                   "2025"
+            ],
+            "date_published": "2026-02-20T21:04:00-05:00",
+            "date_modified": "2026-03-07T16:59:24-05:00"
+        }
+    ]
+}
